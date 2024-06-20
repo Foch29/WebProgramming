@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box; 
+    font-family: "Google Sans",sans-serif;
+    flex:initial;
+   } 
+*, *:before, *:after { 
+   box-sizing: inherit;    
+   }
+
+body{
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}

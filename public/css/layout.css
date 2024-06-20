@@ -1,0 +1,94 @@
+
+body{
+    
+    background-color: rgb(247, 228, 203);
+}
+/* verde cetriolo #86B651 legno foresta #4C5525 grigio #A0A196*/
+nav{
+    margin-left:0;
+    margin-right: 0; 
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    justify-content: flex-end;
+
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    border-bottom-width: 0.4vh;
+
+    background-color: rgb(247, 228, 203);
+    /* background-color: #CFB79E; */
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items:flex-start;
+    flex:initial;
+    margin-right: 39vw;
+   
+}
+
+#logo_immagine{
+    height:4.5rem;
+    width:auto;
+    align-self: center;
+   margin-left: 1vw;
+    
+}
+
+#logo_testo{
+    height:3rem;
+    width: auto;
+    align-self: center;
+    
+    
+}
+
+.area_personale{
+    display: flex;
+    flex:initial;
+    max-height: 20wh;
+    flex:initial;
+}
+
+.navbar{
+    display: flex;
+    flex:initial;
+    font-size:1.4rem; 
+
+    justify-content: space-between;
+    align-items: center;
+    
+
+    list-style-type: none; 
+    padding-inline-start: 0px; 
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    /* per rimuovere proprietá di default di <ul> */
+}
+
+.element_nav,.ap{
+    margin-right: 1.3vw;
+    margin-left: 1.3vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+.element_nav{
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+}
+
+#area_personale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+}
+#area_personale img {
+    height:1.7rem;
+}

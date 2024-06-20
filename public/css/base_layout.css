@@ -1,0 +1,313 @@
+html {
+    box-sizing: border-box; /*cosicché le dimensioni di padding e border valgano nella width complessiva dell'elemento*/
+   } 
+*, *:before, *:after { 
+   box-sizing: inherit;    
+   }
+
+body{
+    margin:0px;                                 /*per rimuovere il margine di default*/
+    background-color: rgb(247, 228, 203);
+}
+
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+/* verde cetriolo #86B651 legno foresta #4C5525 grigio #A0A196*/
+
+nav{
+
+    margin-left:0;
+    margin-right: 0; 
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    border-bottom-width: 0.4vh;
+
+    background-color: rgb(247, 228, 203);
+    /* background-color: #CFB79E; */
+}
+
+#logo_immagine{
+
+    height:4.5rem;
+    width:auto;
+    align-self: center;
+    margin-left: 1vw;
+    
+}
+
+#logo_testo{
+    height:3rem;
+    width: auto;
+    align-self: center;
+    
+    
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    flex:initial;
+    align-items: center;
+}
+
+.navbar_sito{
+    
+    display: flex;
+    flex:initial;
+    font-size:1.4rem; 
+
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6vw;
+    
+
+    list-style-type: none; 
+    padding-inline-start: 0px;  /* 4 proprietá per rimuovere proprietá di default di <ul> */
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    
+}
+/*
+.element_nav,.ap{
+    margin-right: 1.3vw;
+    margin-left: 1.3vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+.element_nav{
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+}*/
+.element_nav{
+    margin-right: 1.3vw;
+    margin-left: 1.3vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+}
+
+/*
+.area_personale{
+    display: flex;
+    flex:initial;
+    max-height: 20wh;
+    flex:initial;
+}
+
+
+#area_personale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+}
+#area_personale img {
+    height:1.7rem;
+}
+
+.div_Grande{
+    display: flex;
+    justify-content: end;
+}
+
+#foto_header{
+    width:100%;
+}
+
+footer{
+    background-color: rgb(247, 228, 203);
+    height: 10%;
+}
+
+#menu_e_testo{
+    display: flex;
+    background-color: rgb(247, 228, 203);
+    padding-top:7%;
+}
+
+#menu{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 2.2rem;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    font-family: Floki,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    
+}
+
+#lista_menu{
+    display: flex;
+    flex-direction: column;
+    gap:1.7rem;
+}
+.punti_menu{
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    border-left: 0.2rem rgb(0,0,0,0.5) solid;
+    margin-left: 30%;
+    margin-right: 16%;
+    padding-left: 2%;
+    
+}
+.punti_menu a{
+    text-decoration: none;
+}
+
+.par_testo{
+    font-size: 1.5rem;
+}
+
+#testo{
+    flex-basis: 70%;
+}
+footer{
+    display: flex;
+    background-color: #86B651;
+}
+h5{
+    padding-top:5rem;
+    padding-bottom:4rem;
+   
+}
+
+.footer{
+    font-size: 2rem;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing: -0.1rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+#primo_social{
+    padding-top:0;
+}
+
+#div_social{
+    padding-right:20%;
+    padding-left:20%;
+}
+#lista_social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hnumero, p{
+    margin-block-start:0 ;
+    margin-block-end: 0;
+}
+.lista{
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    list-style: none;
+}
+.social{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    display: flex;
+    
+}
+.loghi_social{
+    height:2.5rem;
+    margin-right:10%;
+}
+#primo_par{
+    margin-top: 0;
+}
+.social a{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.6rem;
+}
+
+h6{
+    align-self: center;
+}
+#ultimo_social{
+    margin-bottom: 33%;
+}
+
+.container_foto_funghi{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 12%;
+    text-align: center;
+    
+    margin-top: 5%;
+}
+
+.corsivo{
+    font-family: cursive;
+}
+form{
+    height: 3rem;
+    width: 25rem;
+    font-size: 2rem;
+    border: 0.2rem solid black;
+    background-color: white;
+    color: rgb(0,0,0,0.6);
+}
+#container_newsletter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.img_cordyceps{
+    width: 56rem;
+    margin-left: 10rem;
+    margin-top:2rem;
+}
+.container_cordyceps{
+    display: flex;
+    flex-direction: column;
+}
+
+#testo_img_cordyceps{
+    text-align: center;
+}
+.testo_img{
+    font-size: 1.4rem;
+}
+
+.foto_funghi{
+    height:17rem;
+    margin-bottom: 5%;
+}
+#other_uses_of_mushrooms{
+    padding-bottom: 6rem;
+    
+}
+.testo{
+    margin-left: 12%;
+    margin-right: 20%;
+    margin-top:3%;
+}
+h3{
+    font-size: 1.7rem;
+}
+*/

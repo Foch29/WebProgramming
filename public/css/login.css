@@ -1,0 +1,106 @@
+body{
+    margin:0px;
+    background-color: rgb(247, 228, 203);
+}
+
+main{
+    display: flex;
+    flex:initial;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-top: 20vh;
+    
+}
+#div_form{
+width: 40vw;
+}
+
+label{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family:'Courier New',sans-serif;
+    height: 8vh;
+    padding-right: 4rem;
+    padding-left:4rem;
+}
+
+#div_form{
+    display: flex;
+    flex:initial;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(255, 251, 246);
+    border-radius: 1.5rem;
+}
+.input{
+    height: 4vh;
+    width: 12vw;
+   font-size: 1rem;
+}
+
+#link_reg{
+    
+    font-size: 1.2rem;
+    padding-left: 4rem;
+}
+
+#submit{
+    background-color: #0b57d0;
+    border-radius: 1.4rem;
+    height: 5vh;
+    width: 7vw;
+    font-size: 1.3rem;
+    color:rgb(255, 251, 246);   
+}
+#bottom{
+    margin-top: 1.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.item_bottom{
+    padding:1.5vh;
+    font-size: 1.1rem;
+    font-family: "Google Sans",sans-serif;
+}
+#top_label{
+    padding-top: 2vh;
+}
+
+#bottom_label{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#Here{
+    color: #0b57d0;
+    font-weight: bolder;
+}
+
+.error_div{
+    color: red;
+    font-size: 1.3rem;
+    padding-left:4rem;
+    font-weight:bold;
+    
+}
+
+#div_nel_form{
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.small{
+    font-size: 1.7rem;
+}
